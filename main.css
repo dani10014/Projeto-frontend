@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    margin-bottom: 5px;
+    background-color: #182C61;
+    color: #ecf0f1;;
+
+}
+    /*Nome da loja*/
+.nomelj{
+    padding-left: 20px;
+    padding-bottom: 3px;
+}
+
+    /*Seção de Links */
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+}
+    /*Link "Sobre a Loja e Contato*/
+.container a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+}
+.container a:hover{
+    color: red;
+}
+    /*Imagem da loja e texto*/
+.fotolj img{
+    margin-top: 23px;
+    margin-left: 25px;
+    margin-right:23px ;
+}
+    /* Container da simagem e o texto"*/
+.fotolj{
+    margin-top: 20px;
+    display: flex;
+    align-content: space-between;
+    
+}
+    /* texto "Sobre a loja*/
+.sobre{
+    margin-top: 20px;
+    color: #182C61;
+    margin-bottom: 20px;
+}
+
+
