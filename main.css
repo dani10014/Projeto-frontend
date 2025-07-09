@@ -20,10 +20,12 @@ header{
 
     /*Seção de Links */
 .container{
+    max-width:1280px ;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: auto;
 }
 .container li{
     list-style: none;
@@ -58,14 +60,12 @@ header{
     margin-bottom: 20px;
 }
     /*Imagens dos consoles */
-.consoles{
+main .consoles {
     display: flex;
     align-content: start;
-    justify-content: center;
-    gap: 4px;               
+    justify-content: flex-start;
+    gap: 16px;               
     list-style: none;
-    margin-top: 0px;
-
 }
     /* formato e tamanho do Texto sobre a loja*/
 .texto-loja{
