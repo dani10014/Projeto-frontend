@@ -34,7 +34,7 @@ header{
 .container a{
     text-decoration: none;
     margin-right: 30px;
-    color: white;
+    color: #ecf0f1;
 }
 .container a:hover{
     color: red;
@@ -42,16 +42,17 @@ header{
     /*Imagem da loja*/
 .fotolj img{
     margin-top: 23px;
-    margin-left: 25px;
+    margin-left: 29px;
     margin-right:23px ;
 }
     /* Container da imagem */
 .fotolj{
+    max-width: 1280px;
+    width: 100%;
     margin-top: 20px;
     display: flex;
     align-items: flex-start;
     align-content: space-between;
-
 }
     /* texto "Sobre a loja*/
 .sobre{
@@ -60,7 +61,7 @@ header{
     margin-bottom: 20px;
 }
     /*Imagens dos consoles */
-main .consoles {
+main .consoles{
     display: flex;
     align-content: start;
     justify-content: flex-start;
@@ -73,4 +74,49 @@ main .consoles {
     word-break: break-word;
 }
 
+/*####################################(Seção De Contato)##################################################################*/
+.contato {
+    margin-left: 8px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.contato h1{
+    margin-bottom: 16px;
+    color: #182C61;
+}
+.contato h2{
+    color: #182C61;
+}
+.contato input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    padding-right: 123px;
+    text-align: left;
+}
+.contato #assunto{
+    height: 200px;
+    padding-bottom:200px;
+}
+.contato #botao-enviar{
+    border: solid #182C61 2px;
+    background-color: #182C61;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 12px;
+}
+.contato input:focus{
+    border: 2px solid #182C61;
+    outline: #182C61;
+}
 
+/*#####################################seção de midia###########################################################################*/
+
+.contato-container{
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start;
+    gap: 160px;
+    color: #182C61;
+}
